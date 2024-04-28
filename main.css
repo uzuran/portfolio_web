@@ -1,0 +1,142 @@
+* {
+
+}
+body {
+    margin: 0;
+    background-color: #EBFEFF;
+}
+.portfolio {
+    max-width: 1000;
+    margin: 0 350px;
+    filter: drop-shadow(0px 10px 51px rgba(0, 0, 0, 0.97));
+}
+
+
+.navbar {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color:  #EBFEFF;
+    position: fixed;
+    overflow: auto;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    filter: drop-shadow(0px 10px 51px rgba(0, 0, 0, 0.97));
+}
+
+
+ul{
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 80px;
+height: 35px;
+font-size: 28px;
+
+
+font-family: 'Regular';
+font-style: bold;
+
+
+}
+li:hover{
+    
+    cursor: pointer;
+    color: #457B9D;
+}
+h1{
+
+font-family: 'Sora';
+font-style: bold;
+font-weight: 700;
+font-size: 48px;
+line-height: 38px;
+
+}
+
+.head{
+    background-color: #EBFEFF;
+    font-family: 'Sora';
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 150px;
+    font-size: 30px;
+    font-style: normal;
+    gap:300px;
+    
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 150px;
+    font-size: 30px;
+    font-style: normal;
+    background-color: white;
+    gap:300px;
+}
+
+.ft {
+    display: flex; 
+}
+
+
+.button-for-download {
+    width: 280px;
+    height: 90px;
+    font-family: 'Sora';
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    
+}
+.button-for-download:hover{
+    background-color: #457B9D;
+    box-shadow: 0px 15px 20px rgba(33, 127, 182, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+}
+.skills{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin:0 100px;
+    padding: 100px;
+}
+h2{
+    color: #457B9D;
+    font-size: 32px;
+}
+.projects {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px;
+    background-color: white;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    padding: 100px;
+    background-color: #EBFEFF; 
+}
