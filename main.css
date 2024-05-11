@@ -28,8 +28,8 @@ align-items: center;
 padding: 0px;
 gap: 50px;
 height: 25px;
-font-size: 18px;
-font-family: 'Regular';
+font-size: 20px;
+font-family: 'Sora';
 font-style: bold;
 }
 li {
@@ -39,7 +39,7 @@ a{
     text-decoration: none;
 }
 a:visited {
-    color: #457B9D;
+    color: #000000;
 }
 li:hover{
     cursor: pointer;
@@ -65,11 +65,15 @@ li:hover{
 .ft {
     width: 250px;
 }
+
+.ft1 {
+    width: 400px;
+}
 .about {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 170px;
+    padding: 50px;
     font-size: 20px;
     font-style: normal;
     background-color: white;
@@ -109,13 +113,11 @@ li:hover{
 h1{
     font-family: 'Sora';
     font-style: bold;
-    font-weight: 700;
-    font-size: 28px;
-    line-height: 28px;
-    color: #457B9D;
+    font-size: 25px;
+
 }
 h2{
-    color: #163344;
+    color: #457B9D;;
     font-size: 22px;
 }
 .projects {
@@ -131,7 +133,7 @@ h2{
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
-    padding: 70px;
+    padding: 50px;
 }
 footer{
     display: flex;
@@ -144,7 +146,7 @@ div.gallery {
     margin: 5px;
     border: 1px solid #ccc;
     float: left;
-    width: 210px;
+    width: 300px;
 }
 .gallery:hover {
     border: 1px solid #777;
@@ -156,4 +158,22 @@ div.gallery {
 .desc {
     padding: 15px;
     text-align: center;
+}
+
+.greetings {
+    color: #457B9D;
+    font-family: 'Sora';
+    font-size: 20px;
+}
+
+.welcome-text {
+    font-family: 'Sora';
+    font-size: 17px;
+    font-style: 'regular';
+}
+
+.text-about-me {
+    font-family: 'Sora';
+    font-size: 17px;
+    font-style: 'regular';
 }
