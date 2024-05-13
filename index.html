@@ -7,16 +7,23 @@
     <title>Document</title>
     <link rel="stylesheet" href="main.css" />
   </head>
-  <body>
+  <body class="main-body-class">
     <div class="navbar">
-      <h1>Černopaščenko</h1>
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contacts">Contacts</a></li>
+      <h1 class="logo-name">Černopaščenko</h1>
+      <div class="hamburger-menu">
+        <input id="menu__toggle" type="checkbox" />
+        <label class="menu__btn" for="menu__toggle">
+          <span></span>
+        </label>
+      <ul class="menu__box">
+        <li><a class="menu__item" href="#home">Home</a></li>
+        <li><a class="menu__item" href="#about">About</a></li>
+        <li><a class="menu__item" href="#skills">Skills</a></li>
+        <li><a class="menu__item" ref="#projects">Projects</a></li>
+        <li><a class="menu__item" href="#contacts">Contacts</a></li>
+        
       </ul>
+    </div>
     </div>
     <div class="portfolio">
       <div class="head">
@@ -30,11 +37,11 @@
             Let's embark on this journey together as I introduce myself and share my passions and
             experiences.
             </p>
-            <button class="button-for-download">Download CV</button>
+            <button class="button-for-download">Download CV  </button>
             <button class="button-for-download">Explore More</button>
           </div>
           <div class="foto">
-            <img class="ft" src="../my_web/img/oblicej.png" alt="Obličej" />
+            <img class="ft" src="../my_web/img/face.png" alt="face" />
           </div>
         </div>
 
@@ -59,8 +66,13 @@
         <div id="skills" class="skills">
           <h2>Skills</h2>
           <h1>What I am capable of?</h1>
-          <div class="foto">
-            <img class="ft2" src="../my_web/img/skills.png" alt="skills" />
+          <div class="skills-icons">
+            <img  src="../my_web/img/python.png" alt="python" />
+            <img  src="../my_web/img/django.png" alt="django" />
+            <img  src="../my_web/img/selenium.png" alt="selenium" />
+            <img  src="../my_web/img/sql.png" alt="sql" />
+            <img  src="../my_web/img/CSS.png" alt="css" />
+            <img  src="../my_web/img/html.png" alt="python" />
           </div>
         </div>
         <div id="projects" class="projects">
